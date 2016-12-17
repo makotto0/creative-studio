@@ -1,0 +1,64 @@
+/* For all primary-buttons */
+.btn-primary {
+	background-color: #1ab394;
+	border: 1px solid #1ab394;
+}
+
+.btn-primary:hover {
+	background-color: #1cc394;
+	border: 1px solid #1cc394;
+}
+
+.btn-primary:focus {
+	background-color: #1cc394;
+	border: 1px solid #1cc394;
+}
+
+/* For articles.html>.content-inner>btn go */
+
+.go {
+	height: 31px;
+}
+
+/* For Active inside content */
+
+.label-success {
+	background-color: #1ab394 !important;
+}
+
+.label-lg {
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px;
+}
+
+.label-sm {
+	padding: 5px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+
+.label-xs {
+	padding: 1px 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+}
+
+
+.pagination a {
+	color: #1ab394 !important;
+}
+
+.btn-default {
+	color: #676a6c;
+	border: 1px #eee solid;
+}
+
+.btn-default:hover {
+	background-color: #f3f3f4;
+	color: #676a6c;
+	border: 1px #eee solid;
+}

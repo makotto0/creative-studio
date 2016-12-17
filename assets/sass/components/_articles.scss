@@ -1,0 +1,43 @@
+.search-row {
+	margin-bottom: 30px;
+}
+
+.search-field {
+	height: 31px;
+	border: 1px #e7eaec solid;
+}
+
+.article-row p {
+	font-size: 16px;
+	margin-bottom: 0px;
+	font-weight: 400;
+}
+
+.status-padding {
+	padding-top: 5px;
+}
+
+.article-title small {
+	color: #bbb;
+}
+
+
+@media(max-width: 911px) {
+	.article-title {
+		padding-left: 30px;
+	}
+}
+
+@media (min-width: 767px) {
+	.article-actions {
+		float: right;
+	}
+}
+
+@media (max-width: 767px) {
+	.article-actions {
+		padding-left: 10px;
+		margin-top: 10px;
+	}
+}
+
