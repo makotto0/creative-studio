@@ -31,7 +31,7 @@
 		}
 
 		.label-message {
-			background-color: #1ab394;
+			background-color: #fdc113;
 		}
 
 		#nav-header a {
@@ -66,18 +66,24 @@
 }
 
 .navbar-default .navbar-toggle {
-	border-color: #1ab394;
-	background-color: #1ab394;
+	background-color: $color-two;
+	border-color: $color-two;
 }
 
 .navbar-default .icon-bar {
-	border: 1px solid #fff;
+	border: 1px solid $color-three;
 }
 
 .navbar-default .navbar-toggle:hover {
-	background-color: #1ab394;
+	background-color: $color-two;
+	border-color: $color-two;
 }
 
 .navbar-default .navbar-toggle:focus {
-	background-color: #1ab394;
+	background-color: $color-two;
+	border-color: $color-two;
+}
+
+.navbar-default .icon-bar:hover {
+	border: 1px solid $color-one;
 }

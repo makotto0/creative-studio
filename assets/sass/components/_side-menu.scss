@@ -1,12 +1,15 @@
 #side-menu {
-	background-color: #2f4050;
+	background-color: $color-one;
 	padding: 0px;
 
-	h1 {
-		color: #1f3647;
-		text-align: center;
-		margin: 10px 0px;
-		font-size: 25px;
+	//h1 {
+	//	color: #1f3647;
+	//	text-align: center;
+	//	margin: 10px 0px;
+	//	font-size: 25px;
+	//}
+	.main_logo {
+		padding: 5px 5px 107px 5px;
 	}
 }
 
@@ -19,9 +22,8 @@
 #side-menu a {
 	padding: 12px 20px;
 	text-decoration: none;
-	color: #9fb1c2;
-	font-weight: bold;
-	font-size: 13px;
+	color: $color-four;
+	font-size: 20px;
 	display: block;
 }
 
@@ -30,14 +32,14 @@
 }
 
 #side-menu a:hover {
-	background-color: #293846;
+	background-color: $color-two;
 	color: #fff;
 	display: block;
 }
 
 #side-menu .active a {
-	color: #fff;
-	background-color: #293846;
+	color: $color-four;
+	background-color: $color-two;
 }
 
 #side-menu .settings-btn {
@@ -46,10 +48,14 @@
 }
 
 #side-menu .settings-btn a {
-	color: #fff;
+	color: $color-four;
+	background-color: $color-three;
 }
 #side-menu .settings-btn a:hover {
-	background-color: #1ab394;
+	background-color: $color-two;
+	-o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	-ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
 }
 
 #side-menu .collapseable li {
@@ -58,20 +64,27 @@
 }
 
 #side-menu .collapseable a {
-	color: #9fb1c2;
-	font-size: 12px;
+	color: $color-four;
+	font-size: 16px;
 	padding: 0px 10px;
 	text-decoration: none;
 	display: block;
+	background-color: transparent;
+}
+
+#side-menu .collapseable li:hover {
+	color: #fff;
+	background-color: $color-two;
 }
 
 #side-menu .collapseable a:hover {
 	color: #fff;
+	background-color: $color-two;
 }
 
 #side-menu .collapseable {
-	border-left: 4px solid #1ab394;
-	background-color: #293846;
+	border-left: 4px solid $color-two;
+	background-color: transparent;
 }
 
 #side-menu .link > ul > li {

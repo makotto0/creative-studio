@@ -1,17 +1,17 @@
 /* For all primary-buttons */
 .btn-primary {
-	background-color: #1ab394;
-	border: 1px solid #1ab394;
+	background-color: #171516;
+	border: 1px solid #171516;
 }
 
 .btn-primary:hover {
-	background-color: #1cc394;
-	border: 1px solid #1cc394;
+	background-color: #414141;
+	border: 1px solid #414141;
 }
 
 .btn-primary:focus {
-	background-color: #1cc394;
-	border: 1px solid #1cc394;
+	background-color: #414141;
+	border: 1px solid #414141;
 }
 
 /* For articles.html>.content-inner>btn go */
@@ -23,7 +23,12 @@
 /* For Active inside content */
 
 .label-success {
-	background-color: #1ab394 !important;
+	background-color: #5cb85c;
+	color: black;
+}
+
+.label-warning {
+	background-color: #fdc113;
 }
 
 .label-lg {

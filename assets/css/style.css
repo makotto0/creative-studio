@@ -56,8 +56,10 @@ category: Basics
 </div>
 
 */
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch|Oswald:300");
 html, body {
-  font-family: "open-sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 15px;
   background-color: #f3f3f4;
   color: #676a6c;
   height: 100%; }
@@ -82,16 +84,16 @@ html, body {
 
 /* For all primary-buttons */
 .btn-primary {
-  background-color: #1ab394;
-  border: 1px solid #1ab394; }
+  background-color: #171516;
+  border: 1px solid #171516; }
 
 .btn-primary:hover {
-  background-color: #1cc394;
-  border: 1px solid #1cc394; }
+  background-color: #414141;
+  border: 1px solid #414141; }
 
 .btn-primary:focus {
-  background-color: #1cc394;
-  border: 1px solid #1cc394; }
+  background-color: #414141;
+  border: 1px solid #414141; }
 
 /* For articles.html>.content-inner>btn go */
 .go {
@@ -99,7 +101,11 @@ html, body {
 
 /* For Active inside content */
 .label-success {
-  background-color: #1ab394 !important; }
+  background-color: #5cb85c;
+  color: black; }
+
+.label-warning {
+  background-color: #fdc113; }
 
 .label-lg {
   padding: 10px 16px;
@@ -131,14 +137,14 @@ html, body {
   color: #676a6c;
   border: 1px #eee solid; }
 
+/*=======================================
+                COLORS
+=======================================*/
 #side-menu {
-  background-color: #2f4050;
+  background-color: #171516;
   padding: 0px; }
-  #side-menu h1 {
-    color: #1f3647;
-    text-align: center;
-    margin: 10px 0px;
-    font-size: 25px; }
+  #side-menu .main_logo {
+    padding: 5px 5px 107px 5px; }
 
 #side-menu ul {
   list-style: none;
@@ -148,50 +154,60 @@ html, body {
 #side-menu a {
   padding: 12px 20px;
   text-decoration: none;
-  color: #9fb1c2;
+  color: #ffffff;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 20px;
   display: block; }
 
 #side-menu .glyphicon {
   margin-right: 6px; }
 
 #side-menu a:hover {
-  background-color: #293846;
+  background-color: #fdc113;
   color: #fff;
   display: block; }
 
 #side-menu .active a {
-  color: #fff;
-  background-color: #293846; }
+  color: #ffffff;
+  background-color: #fdc113; }
 
 #side-menu .settings-btn {
   margin-left: 0px;
   background-color: #1ab394; }
 
 #side-menu .settings-btn a {
-  color: #fff; }
+  color: #ffffff;
+  background-color: #414141; }
 
 #side-menu .settings-btn a:hover {
-  background-color: #1ab394; }
+  background-color: #fdc113;
+  -o-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  -ms-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+  transition: background 0.3s linear 0s, color 0.3s linear 0s; }
 
 #side-menu .collapseable li {
   padding-left: 30px;
   padding-top: 5px; }
 
 #side-menu .collapseable a {
-  color: #9fb1c2;
-  font-size: 12px;
+  color: #ffffff;
+  font-size: 16px;
   padding: 0px 10px;
   text-decoration: none;
-  display: block; }
+  display: block;
+  background-color: transparent; }
+
+#side-menu .collapseable li:hover {
+  color: #fff;
+  background-color: #fdc113; }
 
 #side-menu .collapseable a:hover {
-  color: #fff; }
+  color: #fff;
+  background-color: #fdc113; }
 
 #side-menu .collapseable {
-  border-left: 4px solid #1ab394;
-  background-color: #293846; }
+  border-left: 4px solid #fdc113;
+  background-color: transparent; }
 
 #side-menu .link > ul > li {
   padding-bottom: 10px; }
@@ -221,7 +237,7 @@ html, body {
   color: #676a6c; }
 
 .label-message {
-  background-color: #1ab394; }
+  background-color: #fdc113; }
 
 #nav-header a {
   text-decoration: none; }
@@ -247,17 +263,22 @@ html, body {
   background-color: #fff; }
 
 .navbar-default .navbar-toggle {
-  border-color: #1ab394;
-  background-color: #1ab394; }
+  background-color: #fdc113;
+  border-color: #fdc113; }
 
 .navbar-default .icon-bar {
-  border: 1px solid #fff; }
+  border: 1px solid #414141; }
 
 .navbar-default .navbar-toggle:hover {
-  background-color: #1ab394; }
+  background-color: #fdc113;
+  border-color: #fdc113; }
 
 .navbar-default .navbar-toggle:focus {
-  background-color: #1ab394; }
+  background-color: #fdc113;
+  border-color: #fdc113; }
+
+.navbar-default .icon-bar:hover {
+  border: 1px solid #171516; }
 
 #admin-footer {
   position: absolute;
@@ -271,7 +292,7 @@ html, body {
 #content {
   margin: 20px 0px 50px 0px;
   background-color: #fff;
-  border-top: 4px #e7eaec solid;
+  border-top: 4px solid #414141;
   color: #676a6c; }
 
 #content header {
@@ -350,7 +371,7 @@ html, body {
 .admin-content-con {
   margin-top: 20px;
   background-color: #fff;
-  border-top: 4px #e7eaec solid;
+  border-top: 4px solid #414141;
   padding: 15px; }
 
 .admin-content-con h5 {
