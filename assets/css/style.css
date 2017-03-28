@@ -57,8 +57,9 @@ category: Basics
 
 */
 @import url("https://fonts.googleapis.com/css?family=Cabin+Sketch|Oswald:300");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 html, body {
-  font-family: 'Cabin Sketch', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 15px;
   background-color: #f3f3f4;
   color: #676a6c;
@@ -142,7 +143,8 @@ html, body {
 =======================================*/
 #side-menu {
   background-color: #171516;
-  padding: 0px; }
+  padding: 0px;
+  font-weight: normal; }
   #side-menu .main_logo {
     padding: 5px 5px 107px 5px; }
 
@@ -155,7 +157,6 @@ html, body {
   padding: 12px 20px;
   text-decoration: none;
   color: #ffffff;
-  font-weight: bold;
   font-size: 20px;
   display: block; }
 
@@ -301,7 +302,7 @@ html, body {
 
 .page_title {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: normal;
   margin: 0px; }
 
 .content-inner {
@@ -419,7 +420,7 @@ html, body {
   color: #676a6c; }
 
 .commenter-name-dash {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 13px; }
 
 .comment-head-dash {
